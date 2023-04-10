@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="header-container">
+        <div class="left-header">
+            <img src="./images/People-World-Map-Prismatic-3.svg" alt="Header logo - world map made out of colourful people">
+            Ben's Movies
+        </div>
+        <div class="right-header">
+            <button id="menu-dropdown">
+                <img src="./images/menu-symbol-of-three-parallel-lines-svgrepo-com.svg" alt="menu button">
+            </button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="button-container">
+            <button id="random-film" onclick="getRandomData(randomLink(), apiKey)">Random Film!</button>
+            <button id="random-top" onclick="getRandomTopFilmData()">Random Top Ranked Film!</button>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer-left"></div>
+        <div class="footer-right"></div>
+    </div>
+</body>
+</html>

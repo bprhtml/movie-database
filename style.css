@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.left-header>img {
+    width: 12vw;
+    height: auto;
+    background-color: white;
+    margin-right: 2vw;
+}
+
+#menu-dropdown {
+    background-color: transparent;
+    border: none;
+    height: 3.6vh;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+#menu-dropdown:hover {
+    border: 2px solid white;
+}
+#menu-dropdown:active {
+    border: 2px solid white;
+    background-color: rgb(255, 180, 170);
+}
+
+#menu-dropdown>img {
+    height: 2vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.main-container>div>button {
+    border: solid #ff0000 2px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ff0000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-container>button:hover {
+    background: #ff4c4c;
+    text-decoration: none;
+}
+
+.film-card {
+    background-color: #ff0000;
+    margin-top: 2vh;
+    color: white;
+    padding: 2vh;
+    width: 60vw;
+    text-align: center;
+}
+
+.film-card>div {
+    margin: 1.3vh;
+}
+
+.film-card>a:visited {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5vh;
+    border-radius: 28%;
+    margin: 1.4vh;
+}
+
+.film-card>a:link {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5vh;
+    border-radius: 28%;
+    margin: 1.4vh;
+}
+
+.film-info-title {
+    font-weight: bolder;
+}
+
+.film-info-desc {
+    font-weight: lighter;
+}
